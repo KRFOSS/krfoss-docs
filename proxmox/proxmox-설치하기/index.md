@@ -11,9 +11,9 @@ Proxmox를 설치하기 전에 아래 표를 참고하여 설치에 적합한지
 <table border="1" style="text-align: center; border: 1px solid white; border-collapse: collapse; width: 100%;">
   <thead>
     <tr>
-      <th style="text-align: center; width: 15%;">항목</th>
-      <th style="text-align: center; width: 42.5%;">최소</th>
-      <th style="text-align: center; width: 42.5%;">권장</th>
+      <th style="text-align: center; width: 5%;">항목</th>
+      <th style="text-align: center; width: 47.5%;">최소</th>
+      <th style="text-align: center; width: 47.5%;">권장</th>
     </tr>
   </thead>
   <tbody>
