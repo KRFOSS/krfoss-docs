@@ -52,13 +52,13 @@ SCP 명령어를 통해 Proxmox의 ISO 폴더에 업로드하는 방식이에요
 
 우선 Windows에서는 cmd나 Powershell, Linux에서는 터미널을 열고 cd로 iso가 있는 폴더로 이동하세요 (절대경로 입력을 원하면 넘어가도 돼요):
 
-```
+```bash
 cd iso가_있는_경로
 ```
 
 그런 다음 아래 명령어를 입력하여 Proxmox로 파일 전송을 시작하세요:
 
-```
+```bash
 scp iso절대경로_또는_파일명.iso 'root@IP주소:/var/lib/vz/template/iso'
 ```
 
@@ -68,14 +68,14 @@ scp iso절대경로_또는_파일명.iso 'root@IP주소:/var/lib/vz/template/iso
 SSH를 사용하여 접속하는 것이기에 비밀번호가 표시되지 않아요.
 {{% /notice %}}
 
-```
+```plaintext
 The authenticity of host '192.168.0.20 (192.168.0.20)' can't be established.
 ED25519 key fingerprint is SHA256:Ab1CdeFgHIjkLMNoPqRsTuVwXyZ1234567890abcdEf.
 This key is not known by any other names.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 
-```
+```bash
 root@192.168.0.20's password:
 ```
 
