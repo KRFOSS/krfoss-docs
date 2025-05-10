@@ -11,9 +11,9 @@ Proxmox를 설치하기 전에 아래 표를 참고하여 설치에 적합한지
 <table border="1" style="text-align: center; border: 1px solid white; border-collapse: collapse; width: 100%;">
   <thead>
     <tr>
-      <th style="text-align: center; width: 5%;">항목</th>
-      <th style="text-align: center; width: 47.5%;">최소</th>
-      <th style="text-align: center; width: 47.5%;">권장</th>
+      <th style="text-align: center; width: 15%;">항목</th>
+      <th style="text-align: center; width: 42.5%;">최소</th>
+      <th style="text-align: center; width: 42.5%;">권장</th>
     </tr>
   </thead>
   <tbody>
@@ -22,16 +22,16 @@ Proxmox를 설치하기 전에 아래 표를 참고하여 설치에 적합한지
       <td colspan="2">Intel 또는 AMD 기반의 x64 CPU</td>
     </tr>
     <tr>
-      <td>M/B</td>
-      <td colspan="2">Intel VT/AMD-V 지원 CPU 및 메인보드</td>
-    </tr>
-    <tr>
       <td>RAM</td>
       <td>1GB (VM 메모리 별도)</td>
       <td>최소 2GB (VM 메모리 및 Ceph, ZFS용 메모리 별도)<br><strong>*추천: 16GB 이상</strong></td>
     </tr>
     <tr>
-      <td>Disk</td>
+      <td>메인보드</td>
+      <td colspan="2">Intel VT/AMD-V 지원 CPU 및 메인보드</td>
+    </tr>
+    <tr>
+      <td>디스크</td>
       <td>하드 드라이브</td>
       <td>BBU(배터리로 보호되는 쓰기 캐시)가 있는 하드웨어 RAID<br>또는 ZFS가 있는 비 RAID 디스크</td>
     </tr>
@@ -41,7 +41,7 @@ Proxmox를 설치하기 전에 아래 표를 참고하여 설치에 적합한지
       <td>1개 이상의 NIC</td>
     </tr>
     <tr>
-      <td>ETC</td>
+      <td>기타</td>
       <td>-</td>
       <td>PCI(e) 패스스루의 경우 CPU에 VT-d/AMD-d 플래그 필요</td>
     </tr>
@@ -53,15 +53,15 @@ Proxmox를 설치하기 전에 아래 표를 참고하여 설치에 적합한지
 {{% /notice %}}
 
 ### Proxmox ISO 다운로드 및 부팅
-우선 [ROKFOSS 프로젝트 공식 미러](https://mirror.krfoss.org/)에서 Proxmox ISO를 다운로드하세요. 상단의 `ISO 이미지`를 누르거나 아래로 내려서 ISO 이미지 항목을 찾으면 돼요.
+우선 [ROKFOSS 프로젝트 공식 미러](https://http.krfoss.org/)에서 빠른 다운로드 항목의 Proxmox를 선택하세요.
 
 ![](./1.png)
 
-찾았다면 **Proxmox**를 누르고 `proxmox-ve_8.4-1.iso`를 선택하여 다운로드하세요. (버전은 날짜에 따라 최신버전이 더 있을 수도 있으니 확인 후 진행하세요. 이번 가이드에서는 8.4-1로 진행해요)
+다음으로 `Proxmox VE`에서 `8.4-1 다운로드`를 선택하여 다운로드하세요. (버전은 날짜에 따라 최신버전이 더 있을 수도 있으니 확인 후 진행하세요. 이번 가이드에서는 8.4-1로 진행해요)
 
 ![](./2.png)
 
-다음으로 [Rufus](https://rufus.ie/ko/)나 [Ventoy](https://www.ventoy.net/) 같은 프로그램을 사용하여 설치 USB를 만들고 설치하려는 PC(서버)에 꽂은 뒤, 부팅 옵션 키를 눌러 해당 USB로 부팅하세요.
+이제 [Rufus](https://rufus.ie/ko/)나 [Ventoy](https://www.ventoy.net/) 같은 프로그램을 사용하여 설치 USB를 만들고 설치하려는 PC(서버)에 꽂은 뒤, 부팅 옵션 키를 눌러 해당 USB로 부팅하세요.
 
 {{% notice info %}}
 부팅 옵션 키는 메인보드 제조사마다 달라요. 현재 사용중인 메인보드 제조사를 확인하여 미리 알아두세요.
