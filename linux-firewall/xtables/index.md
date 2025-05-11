@@ -38,7 +38,7 @@ mkdir xt_geoip
 
 ``` bash
 cd xt_geoip
-wget https://docs.krfoss.org/linux-firewall/xtables/xt_geoip.zip
+wget https://cdn.krfoss.org/foss/xt_geoip.zip
 unzip xt_geoip.zip
 ```
 
