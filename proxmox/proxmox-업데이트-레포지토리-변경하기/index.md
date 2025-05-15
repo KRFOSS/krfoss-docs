@@ -1,5 +1,5 @@
 ---
-title: Proxmox 업데이트 레포지토리 변경하기
+title: Proxmox 업데이트 레포지토리(미러) 변경하기
 description: 
 icon: ti-pin
 weight: 30
