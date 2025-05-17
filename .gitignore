@@ -1,6 +1,6 @@
 .DS_Store
 @eaDir
 *.php
-robots.txt
+*.txt
 *.zip
 *.xml
