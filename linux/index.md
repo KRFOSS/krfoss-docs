@@ -16,4 +16,6 @@ author: ["xenix4845",]
 
 ---
 
-[> DNS 변경하기 [수정예정]](링크변경예정)
+[> DNS 변경하기](https://docs.krfoss.org/linux/dns-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0/)
+
+[> 시간 변경하기](https://docs.krfoss.org/linux/%EC%8B%9C%EA%B0%84-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0/)
