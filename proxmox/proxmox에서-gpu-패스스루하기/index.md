@@ -73,16 +73,17 @@ sudo ./NVIDIA_Linux_x86_64_드라이버버전.run
 | GPU  Name           Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC       |
 | Fan  Temp  Perf  Pwr:Usage/Cap    | Memory-Usage         | GPU-Util  Compute M.       |
 |===================================+======================+============================|
-|   0  NVIDIA RTX 3060       On     | 00000000:01:00.0 Off | N/A                        |
-|  30%   43C   P8    12W / 170W     | 420MiB / 12288MiB    | 1%       Default           |
+|   0  NVIDIA GTX 1050        On    | 00000000:01:00.0 Off | N/A                        |
+|  35%    39C    P8    10W / 75W       | 410MiB / 2048MiB  | 2%       Default           |
 +-------------------------------+----------------------+--------------------------------+
 
 +---------------------------------------------------------------------------------------+
 | Processes:                                                                  GPU Memory|
 |  GPU       PID   Type   Process name                                        Usage     |
 |=======================================================================================|
-|    0      3024   G      /usr/lib/xorg/Xorg                                   198MiB   |
-|    0      4211   G      /usr/bin/gnome-shell                                 112MiB   |
-|    0      5123   G      ...RendererForSitePerProcess                         110MiB   |
+|    0      2156   G      /usr/lib/xorg/Xorg                                   180MiB   |
+|    0      3187   G      /usr/bin/gnome-shell                                  90MiB   |
+|    0      4029   G      ...RendererForSitePerProcess                         140MiB   |
 +---------------------------------------------------------------------------------------+
+
 ```
