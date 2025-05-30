@@ -7,7 +7,7 @@ author: ["kmw0410"]
 ---
 
 {{% notice info %}}
-이 가이드를 따르기 전에 반드시 [Proxmox 패스스루 설정하기]()를 따라야 해요.
+이 가이드를 따르기 전에 반드시 [Proxmox 패스스루 설정하기](https://docs.krfoss.org/proxmox/proxmox%EC%97%90%EC%84%9C-%ED%8C%A8%EC%8A%A4%EC%8A%A4%EB%A3%A8-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0/)를 따라야 해요.
 
 또한 아래 내용은 엔비디아 GPU를 기준으로 작성되었으며 라데온 또는 내장 그래픽의 경우 방법이 다를 수 있어요.
 {{% /notice %}}
