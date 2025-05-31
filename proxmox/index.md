@@ -24,6 +24,12 @@ Proxmox에 관련한 정보들을 모았어요. `문서 목록`을 눌러 읽고
 
 [> Proxmox에서 권한 설정하기](https://docs.krfoss.org/proxmox/proxmox%EC%97%90%EC%84%9C-%EA%B6%8C%ED%95%9C-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0/)
 
+[> Proxmox에서 패스스루 설정하기](https://docs.krfoss.org/proxmox/proxmox%EC%97%90%EC%84%9C-%ED%8C%A8%EC%8A%A4%EC%8A%A4%EB%A3%A8-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0/)
+
+[> Proxmox에서 GPU 패스스루하기](https://docs.krfoss.org/proxmox/proxmox%EC%97%90%EC%84%9C-gpu-%ED%8C%A8%EC%8A%A4%EC%8A%A4%EB%A3%A8%ED%95%98%EA%B8%B0/)
+
+[> Proxmox에서 헤놀로지 설치하기 (M-SHELL)](https://docs.krfoss.org/proxmox/proxmox%EC%97%90%EC%84%9C-%ED%97%A4%EB%86%80%EB%A1%9C%EC%A7%80-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/)
+
 ---
 
 [> Proxmox에서 NanoKVM에 ISO 업로드하기](https://docs.krfoss.org/proxmox/proxmox%EC%97%90%EC%84%9C-nanokvm%EC%97%90-iso-%EC%97%85%EB%A1%9C%EB%93%9C/)
