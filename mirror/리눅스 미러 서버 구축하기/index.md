@@ -142,7 +142,7 @@ dsync.krfoss.org는 허용된 아이피만 Rsync 서비스를 이용할 수 있�
 | Proxmox     | rsync://dsync.krfoss.org/proxmox/                                                       | 약 600GB     |
 | Kali Linux  | rsync://mirror.techlabs.co.kr/kali/ <br> rsync://mirror.techlabs.co.kr/kali-images/     | 합계 약 700GB|
 | Arch Linux  | rsync://mirror.funami.tech/arch/                                                        | 약 110GB     |
-| Rocky Linux | rsync://mirror.zzunipark.com/rocky/ <br> rsync://mirror.zzunipark.com/rocky-sigs/       | 합계 약 1.3TB|
+| Rocky Linux | rsync://rsync.mirror.zzunipark.com/rocky/ <br> rsync://rsync.mirror.zzunipark.com/rocky-sigs/       | 합계 약 1.3TB|
 | OPNsense    | rsync://dsync.krfoss.org/opnsense/                                                      | 약 200GB     |
 | fedora      | rsync://mirror.hemino.net/fedora/                                                       | 약 6TB       |
 
