@@ -118,14 +118,14 @@ Rsync는 많은 미러들이 선택한 데이터 복제 방식이에요. 우리�
 
 ``` bash
 cd ~; mkdir rsync
-wget https://mirror.krfoss.org/.data/foss/1.sh -O /root/rsync/mirror.sh
-chmod +x /root/rsync/mirror.sh
+wget https://download.krfoss.org/dsync-m.sh 
+chmod +x /root/rsync/dsync-m.sh
 ```
 
 다운로드가 완료되었나요? 이제 스크립트를 수정해야 해요. 아래 명령어를 실행해서 스크립트를 열어주세요.
 
 ``` bash
-vi /root/rsync/mirror.sh
+vi /root/rsync/dsync-m.sh 
 ```
 
 스크립트 내에서 다음 부분을 미러링하려는 배포판에 맞게 수정해주세요. 아래 예시에서는 proxmox를 복제한다고 가정하고 있어요. 만약 다른 걸 하려고 한다면 그에 맞게 수정해주세요!
@@ -168,7 +168,7 @@ base_log_file="/root/mirror/배포판이름.log"  # 예: /root/mirror/proxmox.lo
 
 ``` bash
 cd rsync
-./mirror.sh
+./dsync-m.sh 
 ```
 {{% notice info %}}
 이 스크립트는 로그 파일을 남겨요. 그래서 만약 문제가 생겼다면 어떤 문제가 생겼는지 로그 파일을 열어서 확인하고 대응할 수 있어요. 로그 파일은 최대 15개까지만 쌓이고 그 이상부터는 가장 오래된 로그 파일을 자동으로 삭제해요.
@@ -184,7 +184,7 @@ dsync는 ROKFOSS 프로젝트에서 만든 rsync 기반의 간편 미러링 도�
 
 ``` bash
 cd /root
-wget https://mirror.krfoss.org/foss/dsync
+wget https://download.krfoss.org/dsync
 chmod +x /root/dsync
 ```
 

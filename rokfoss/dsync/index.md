@@ -12,8 +12,10 @@ dsync는 ROKFOSS 프로젝트에서 제공하는 미러 동기화 프로그램�
 
 다운로드는 아래 명령어로 가능합니다. (모든 리눅스에서 사용 가능)
 
+2025년 6월 28일 기준 최신 버전은 1.3.1입니다.
+
 ``` bash
-wget https://mirror.krfoss.org/foss/dsync
+wget https://download.krfoss.org/dsync
 chmod +x dsync
 ```
 
@@ -87,6 +89,10 @@ logdir=false
 
 # 타임스탬프 형식의 로그 파일 이름 사용 (true/false, 기본값: false)
 logtime=false
+
+# rsync 에러 무시 및 임시 파일 제외 설정 (true/false, 기본값: false)
+# 활성화하면 임시 파일과 에러를 무시하고 계속 진행합니다.
+pass-error-temp=false
 ```
 
 설정 파일에는 주석이 달려있으니 주석을 참고하여 설정하면 됩니다. 그래도 설명이 필요하다면 아래를 참고하세요.
@@ -259,8 +265,10 @@ dsync의 최신 업데이트 소식을 받고 싶다면 이 또한 [ROKFOSS 커�
 
 만약 안전하다고 생각되지 않는다면 일반 스크립트 파일을 활용하여 동기화 작업을 진행할 수 있습니다. 아래 명령어를 확인하여 스크립트 파일을 다운로드하여 사용하면 됩니다.
 
+dsync-m.sh 스크립트 파일은 2025년 4월 이후로 업데이트가 중단되었습니다. 하지만 여전히 사용할 수 있으며 라이선스에 따라 자유롭게 수정 및 재배포 할 수 있습니다.
+
 ``` bash
 cd ~; mkdir rsync
-wget https://mirror.krfoss.org/.data/foss/1.sh -O /root/rsync/mirror.sh
-chmod +x /root/rsync/mirror.sh
+wget https://download.krfoss.org/dsync-m.sh 
+chmod +x /root/rsync/dsync-m.sh
 ```
