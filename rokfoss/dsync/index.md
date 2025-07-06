@@ -12,7 +12,7 @@ dsync는 ROKFOSS 프로젝트에서 제공하는 미러 동기화 프로그램�
 
 다운로드는 아래 명령어로 가능합니다. (모든 리눅스에서 사용 가능)
 
-2025년 6월 28일 기준 최신 버전은 1.3.1입니다.
+2025년 7월 7일 기준 최신 버전은 1.4.1입니다.
 
 ``` bash
 wget https://download.krfoss.org/dsync
@@ -159,6 +159,10 @@ pass-error-temp는 동기화 중에 발생하는 오류를 무시하고 계속 �
 ``` conf
 pass-error-temp=true
 ```
+
+### rokfoss-sync
+
+rokfoss-sync는 ROKFOSS 미러 프로젝트에 참여하게 되는 경우 필요한 옵션입니다. 
 
 ---
 
