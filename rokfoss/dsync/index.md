@@ -12,7 +12,7 @@ dsync는 ROKFOSS 프로젝트에서 제공하는 미러 동기화 프로그램�
 
 다운로드는 아래 명령어로 가능합니다. (모든 리눅스에서 사용 가능)
 
-2025년 7월 7일 기준 최신 버전은 1.4.1입니다.
+2025년 7월 10일 기준 최신 버전은 1.5.0입니다.
 
 ``` bash
 wget https://download.krfoss.org/dsync
@@ -93,6 +93,14 @@ logtime=false
 # rsync 에러 무시 및 임시 파일 제외 설정 (true/false, 기본값: false)
 # 활성화하면 임시 파일과 에러를 무시하고 계속 진행합니다.
 pass-error-temp=false
+
+# ROKFOSS 동기화 모드 (true/false, 기본값: false)
+# ROKFOSS 미러 프로젝트에 참여한 경우에만 사용하세요. 그외에는 필요가 없습니다.
+rokfoss-sync=false
+
+# 웹훅 알림 URL (동기화 결과가 이 URL로 전송됨)
+# webhookurl=https://hooks.slack.com/services/xxxx/yyyy/zzzz
+# webhookurl=https://discord.com/api/webhooks/xxxx/yyyy
 ```
 
 설정 파일에는 주석이 달려있으니 주석을 참고하여 설정하면 됩니다. 그래도 설명이 필요하다면 아래를 참고하세요.
@@ -162,7 +170,13 @@ pass-error-temp=true
 
 ### rokfoss-sync
 
-rokfoss-sync는 ROKFOSS 미러 프로젝트에 참여하게 되는 경우 필요한 옵션입니다. 
+rokfoss-sync는 ROKFOSS 미러 프로젝트에 참여하게 되는 경우 필요한 옵션입니다.
+
+---
+
+### webhookurl
+
+동기화 결과를 웹훅으로 전송할 URL을 설정합니다. 이 값은 Slack, Discord 등 다양한 웹훅 서비스에 사용할 수 있습니다. 
 
 ---
 
@@ -180,8 +194,11 @@ dsync는 다양한 명령어를 제공합니다. 아래는 dsync에서 제공하
 | `dsync -test`  | 저장소 설정 파일들이 모두 잘 설정되었는지 검증하고 폴더 권한 문제는 없는지 확인하며 원격지 서버와 잘 연결을 맺었는지를 확인합니다. |
 | `dsync -force` | 문제가 있어도 그냥 무조건 실행해버립니다. 이 경우 손상 또는 문제가 발생할 수 있으니 테스트 환경에서만 사용해야 합니다. |
 | `dsync -cleanlog`  | 7일 이상 지난 로그들을 정리해줍니다. 일반적으로 이 옵션을 사용할 일은 거의 없습니다. 왜냐하면 dsync가 자동으로 오래 된 로그들을 제거하기 때문입니다. |
+| `dsync -setup` | dsync를 간편하게 설정할 수 있습니다. https://setup.krfoss.org 에서 먼저 설정 링크를 만든 후에 붙여넣기를 해주세요. |
 
 이렇게해서 dsync의 명령어에 대해서 알아보았습니다. 만약 문제가 발생한다면 [ROKFOSS 커뮤니티](https://chat.krfoss.org)에 가입해서 이를 제보하거나 프로젝트 공식 메일인 krfoss@krfoss.org로 메일을 보내주시면 됩니다.
+
+이용에 관련한 문의의 경우에도 커뮤니티를 방문해주세요!
 
 ## dsync의 특징
 
