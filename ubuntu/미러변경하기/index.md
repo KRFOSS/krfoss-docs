@@ -3,7 +3,7 @@ title: 우분투 미러 변경하는 방법
 description: 
 icon:
 weight:
-author: ["xenix4845",]
+author: ["xenix4845", "DevNergis"]
 ---
 
 ## 우분투의 기본 미러
@@ -44,7 +44,7 @@ Address: 2620:2d:4000:1::103
 
 ### 1. 직접 파일을 수정하기
 
-vi 또는 nano로 **/etc/apt/sources.list**를 수정하는 방법이에요. 이 경우에는 버전별로 다르기 때문에 주의해야 해요. 
+`vi` 또는 `nano`로 `/etc/apt/sources.list`를 수정하는 방법이에요. 이 경우에는 버전별로 다르기 때문에 주의해야 해요. 
 
 ```bash
 
@@ -64,6 +64,31 @@ deb-src https://http.krfoss.org/ubuntu noble-security main restricted universe m
 deb https://http.krfoss.org/ubuntu noble-backports main restricted universe multiverse
 deb-src https://http.krfoss.org/ubuntu noble-backports main restricted universe multiverse
 ```
+
+#### 1-1. Ubuntu 24.04 LTS (Noble Numbat) 이상일때
+
+Ubuntu 24.04 LTS (Noble Numbat) 이상 부터는 `/etc/apt/sources.list`가 `/etc/apt/sources.list.d/ubuntu.sources`로 이사​🚚​ 갔어요!
+
+자세한 내용은[Ubuntu 24.04 LTS (Noble Numbat) Release Notes](https://discourse.ubuntu.com/t/ubuntu-24-04-lts-noble-numbat-release-notes/39890#p-99950-deb822-sources-management)의 **deb822 sources management**부분을 참고하세요!
+
+`vi`또는 `nano`로 `/etc/apt/sources.list.d/ubuntu.sources`를 수정하는 방법이에요.
+
+```bash
+#우분투 메인, 업데이트, 백포트 저장소
+Types: deb
+URIs: https://http.krfoss.org/ubuntu/
+Suites: noble noble-updates noble-backports
+Components: main restricted universe multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+
+# 우분투 보안 업데이트 저장소
+Types: deb
+URIs: https://http.krfoss.org/ubuntu/
+Suites: noble-security
+Components: main restricted universe multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+```
+
 
 위와 같이 수정한 뒤에 아래 명령어를 실행해서 정보를 업데이트 해주세요.
 
