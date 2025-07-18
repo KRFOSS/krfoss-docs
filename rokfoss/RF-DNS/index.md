@@ -28,15 +28,15 @@ RF-DNS 는 ROKFOSS 프로젝트에서 제공하는 공개 DNS 입니다.
 
 ## RF-DNS의 특징
 
-### CF-Hijacker
+### CF-Hello
 
-**CF-Hijacker**기능을 이용해 모두 접속자의 주변 서버(ICN)로 연결해요.
+**CF-Hello**기능을 이용해 모두 접속자의 주변 서버(ICN)로 연결해요.
 
 Cloudflare를 사용하는 웹사이트는 더 빠르게 로드되고, 지연시간이 줄어듭니다.
 
 ### DNS Pass-through
 
-**DNS Pass-through**기능을 이용하면 사용자가 원래 사용하던 DNS `ex) AdGuard DNS` 등을 그대로 사용하면서 **CF-Hijacker**기능을 이용할수 있어요.
+**DNS Pass-through**기능을 이용하면 사용자가 원래 사용하던 DNS `ex) AdGuard DNS` 등을 그대로 사용하면서 **CF-Hello**기능을 이용할수 있어요.
 
 현재 `DNS over HTTPS` 에서만 지원해요.
 
