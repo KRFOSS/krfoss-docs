@@ -60,7 +60,7 @@ ROKFOSS 프로젝트의 대표 프로젝트인 **미러 프로젝트**에 참여
 - [고요한하늘](https://github.com/parkhojoun)
 - [hardline7](https://github.com/hardline7)
 - [imnyang](https://github.com/imnyang)
-- jmin1220
+- [jmin1220](https://github.com/minegreen15)
 - [Keiminem](https://github.com/me0kmin27)
 - [Lee Wonchan](https://github.com/LeeWonchan4531)
 - [Noa Himesaka](https://github.com/NoaHimesaka1873)
