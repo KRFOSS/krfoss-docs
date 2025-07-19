@@ -59,7 +59,7 @@ ROKFOSS 프로젝트의 대표 프로젝트인 **미러 프로젝트**에 참여
 - [Dev_Nergis](https://github.com/DevNergis)
 - [고요한하늘](https://github.com/parkhojoun)
 - [hardline7](https://github.com/hardline7)
-- [imnya.ng](https://github.com/imnyang)
+- [imnyang](https://github.com/imnyang)
 - jmin1220
 - [Keiminem](https://github.com/me0kmin27)
 - [Lee Wonchan](https://github.com/LeeWonchan4531)
