@@ -17,7 +17,7 @@ ROKFOSS 프로젝트는 많은 사람들의 자발적인 참여와 기여를 통
 칼리 리눅스 문서의 한글화를 위한 번역 작업의 참여 또는 지속적인 문서 업데이트에 기여해주신 분들입니다.
 
 - [kmw0410](https://github.com/kmw0410)
-- [xenix4845](https://github.com/xenix4845)
+- [X](https://github.com/xenix4845)
 - [xjnkr](https://github.com/xjnkr)
 - [zzunipark](https://github.com/zzunipark)
 
@@ -27,7 +27,7 @@ ROKFOSS 프로젝트의 문서 작성 및 개선에 기여해주신 분들입니
 
 - [Dev_Nergis](https://github.com/DevNergis)
 - [kmw0410](https://github.com/kmw0410)
-- [xenix4845](https://github.com/xenix4845)
+- [X](https://github.com/xenix4845)
 - [xjnkr](https://github.com/xjnkr)
 - [zzunipark](https://github.com/zzunipark)
 
@@ -47,7 +47,7 @@ ROKFOSS 프로젝트의 오픈소스 프로그램 개발에 참여 또는 기여
 
 - [Dev_Nergis](https://github.com/DevNergis)
 - [hardline7](https://github.com/hardline7)
-- [xenix4845](https://github.com/xenix4845)
+- [X](https://github.com/xenix4845)
 - [xjnkr](https://github.com/xjnkr)
 - [zzunipark](https://github.com/zzunipark)
 
@@ -66,5 +66,5 @@ ROKFOSS 프로젝트의 대표 프로젝트인 **미러 프로젝트**에 참여
 - [Noa Himesaka](https://github.com/NoaHimesaka1873)
 - [pangkin](https://github.com/pangkin)
 - [SiRin](https://github.com/sirin-interact)
-- [xenix4845](https://github.com/xenix4845)
+- [X](https://github.com/xenix4845)
 - [zzunipark](https://github.com/zzunipark)
