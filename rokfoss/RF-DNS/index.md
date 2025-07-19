@@ -3,7 +3,7 @@ title: RF-DNS
 description: ROKFOSS DNS
 icon:
 weight:
-author: [ "DevNergis" ]
+author: ["DevNergis"]
 ---
 
 {{% notice info %}}
