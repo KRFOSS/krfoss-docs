@@ -68,3 +68,7 @@ ROKFOSS 프로젝트의 대표 프로젝트인 **미러 프로젝트**에 참여
 - [SiRin](https://github.com/sirin-interact)
 - [X](https://github.com/xenix4845)
 - [zzunipark](https://github.com/zzunipark)
+
+## 그외 기여자...
+
+ROKFOSS 프로젝트를 널리 알려주신 분들 그리고 함께 참여해주신 모든 분들께 감사드립니다! 만약 프로젝트에 기여하고 싶다면 우리의 [GitHub](https://github.com/KRFOSS)를 방문하거나 [Discord](https://chat.krfoss.org) 서버에 참여해 주세요!
