@@ -40,6 +40,7 @@ ROKFOSS 프로젝트의 서비스 테스트 및 버그 수정에 기여해주신
 - [kmw0410](https://github.com/kmw0410)
 - [xjnkr](https://github.com/xjnkr)
 - [zzunipark](https://github.com/zzunipark)
+- [imnyang](https://github.com/imnyang)
 
 ## ROKFOSS 프로젝트 개발 참여 또는 기여
 
@@ -50,6 +51,7 @@ ROKFOSS 프로젝트의 오픈소스 프로그램 개발에 참여 또는 기여
 - [X](https://github.com/xenix4845)
 - [xjnkr](https://github.com/xjnkr)
 - [zzunipark](https://github.com/zzunipark)
+- [imnyang](https://github.com/imnyang)
 
 ## 분산미러 참여와 기여
 
