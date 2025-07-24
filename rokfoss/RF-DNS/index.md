@@ -8,10 +8,6 @@ author: ["DevNergis"]
 
 {{% notice info %}}
 RF-DNS는 현재 베타 릴리즈 입니다.
-
-DNS가 불안정할 수 있으며 정상 작동하지 않는 기능이 있을 수 있습니다.
-
-DoQ(DNS over QUIC)은 매우 불안정합니다, 실제로 사용하지 않을 것을 권장합니다.
 {{% /notice %}}
 
 ## RF-DNS는 무엇인가요?
@@ -49,5 +45,3 @@ Plain: `152.70.36.246`
 DNS over HTTPS: `https://dns.dev.c01.kr/dns-query`
 
 DNS over TLS: `dns.dev.c01.kr`
-
-DNS over QUIC: `dns.dev.c01.kr`
