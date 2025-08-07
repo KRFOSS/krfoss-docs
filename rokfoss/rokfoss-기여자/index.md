@@ -70,7 +70,7 @@ ROKFOSS 프로젝트의 대표 프로젝트인 **미러 프로젝트**에 참여
 - [SiRin](https://github.com/sirin-interact)
 - [X](https://github.com/xenix4845)
 - [zzunipark](https://github.com/zzunipark)
-- [NY64](ny0510)
+- [NY64](https://github.com/ny0510)
 
 ## 그외 기여자...
 
