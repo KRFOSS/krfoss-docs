@@ -12,7 +12,7 @@ Proxmox 웹 인터페이스에서 노드를 선택 후 좌측 메뉴의 **Shell*
 
 그런 다음 아래 명령어를 입력하여 국내 미러로 변경하세요:
 ```
-curl -sSL https://http.krfoss.org/pack/prx2.sh | bash
+curl -sSL https://http.krfoss.org/pack/pve.sh | bash
 ```
 
 변경이 완료되었다면 Proxmox 관련 서비스가 재시작되며 업데이트를 국내 미러에서 받을 수 있어요.
