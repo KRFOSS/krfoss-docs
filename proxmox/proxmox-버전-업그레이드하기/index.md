@@ -7,9 +7,9 @@ author: ["kmw0410"]
 ---
 
 {{% notice info %}}
- - 시스템에 따라 업그레이드로 인해 커널 패닉이나 재부팅되는 문제가 발생될 수 있어요. 업데이트 시 주의하세요.
+시스템에 따라 업그레이드로 인해 커널 패닉이나 재부팅되는 문제가 발생될 수 있어요. 업데이트 시 주의하세요.
 
- - 본 문서의 내용은 Proxmox 공식 위키 - [Updgrade from 8 to 9](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9)의 주요 내용만 다르고 있어요. 이 문서에 없는 내용이나 알려진 이슈, 문제 해결은 직접 들어가 확인해 주세요.
+본 문서의 내용은 Proxmox 공식 위키 - [Updgrade from 8 to 9](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9)의 주요 내용만 다르고 있어요. 이 문서에 없는 내용이나 알려진 이슈, 문제 해결은 직접 들어가 확인해 주세요.
 {{% /notice %}}
 
 # 소개
