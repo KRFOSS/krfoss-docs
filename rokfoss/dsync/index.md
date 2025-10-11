@@ -19,12 +19,24 @@ wget https://download.krfoss.org/dsync
 chmod +x dsync
 ```
 
-Debian 계열의 리눅스를 사용하고 있다면, 이제 APT 명령어를 통해서 간편하게 업데이트하고 설치할 수 있습니다.
+다양한 리눅스들의 패키지 관리자를 통한 설치를 지원합니다. 자신의 리눅스 환경에 맞는 적절한 명령어를 선택하여 실행하십시오.
+
+데비안 계열
 ``` bash
-curl -fsSL http://pkg.krfoss.org/script/install.sh | sudo bash
+curl -fsSL http://pkg.krfoss.org/debian/script/install.sh | bash
 ```
 
-이 스크립트를 실행하여 dsync 패키지 저장소를 추가할 수 있으며 apt install dsync -y 명령어를 통해 간편하게 설치 및 사용하실 수 있습니다.
+RHEL 계열
+``` bash
+curl -fsSL http://pkg.krfoss.org/rhel/script/install.sh | bash
+```
+
+Arch 계열
+``` bash
+curl -fsSL http://pkg.krfoss.org/arch/script/install.sh | bash
+```
+
+이 스크립트를 통해 저장소 추가 또는 설치까지 한번에 끝낼 수 있습니다.
 
 ---
 
