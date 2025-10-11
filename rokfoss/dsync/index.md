@@ -3,7 +3,7 @@ title: Dsync
 description: 
 icon:
 weight:
-author: ["KRFOSS","xenix4845"]
+author: ["KRFOSS","xenix4845","imnyang"]
 ---
 
 ## Dsync는 무엇인가요?
