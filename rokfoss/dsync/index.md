@@ -33,8 +33,6 @@ curl -fsSL http://pkg.krfoss.org/rhel/script/install.sh | bash
 
 Arch 계열
 
-아래의 커스텀 패키지 추가를 하거나 [dsync (AUR)](https://aur.archlinux.org/packages/dsync)에서 설치할 수 있어요.
-
 ``` bash
 curl -fsSL http://pkg.krfoss.org/arch/script/install.sh | bash
 ```
