@@ -44,11 +44,11 @@ Proxmox VE 9.x는 여러 개의 새롭고 주요한 기능들이 포함되어 �
 # 기존 환경 업그레이드
 ## 사전 요구 사항
  - 모든 노드가 최신 버전의 Proxmox VE 8.4로 업그레이드하세요: 만약 pve-manager 버전이 최소 `8.4.1` 이상이 아니라면, 노드 패키지 구성이 올바른지 확인하세요. (웹 UI -> 레포지토리)
- - 하이퍼컨버저드(Hypr-converged) Ceph: Proxmox VE를 9.0으로 업그레이드 **하기 전에** 모든 Ceph Quincy 또는 Ceph reef 클러스터를 Ceph 19.2 Squid로 업그레이드해야 해요. ([Ceph Quincy → Reef](https://pve.proxmox.com/wiki/Ceph_Quincy_to_Reef), [Ceph Reef → Squid](https://pve.proxmox.com/wiki/Ceph_Reef_to_Squid) 가이드를 따르세요)
+ - 하이퍼컨버저드(Hyper-converged) Ceph: Proxmox VE를 9.0으로 업그레이드 **하기 전에** 모든 Ceph Quincy 또는 Ceph reef 클러스터를 Ceph 19.2 Squid로 업그레이드해야 해요. ([Ceph Quincy → Reef](https://pve.proxmox.com/wiki/Ceph_Quincy_to_Reef), [Ceph Reef → Squid](https://pve.proxmox.com/wiki/Ceph_Reef_to_Squid) 가이드를 따르세요)
  - 동시 설치된 Proxmox Backup Server: [Proxmox Backup Server을 3에서 4로 업그레이드 하는 방법](https://pbs.proxmox.com/wiki/index.php/Upgrade_from_3_to_4)을 확인하세요
  - 노드에 대한 신뢰할 수 있는 접근: 호스트에 독립적인 채널(예:IKVM/IPMI)이나 물리적 접근을 통해 노드에 접근할 수 있어야 해요. SSH만 가능한 경우, 먼저 동일하지만 비운영 머신에서 업그레이드를 시험해 보는 것을 권장하며 만약 연결이 중단되더라도 업그레이드가 계속 진행될 수 있도록, `tmux`나 `screen` 같은 터미널 멀티플렉서 사용을 권장해요.
  - 정상적인 상태의 클러스터
- - 모든 VM과 CT의 유요하고 검증된 백업 (문제가 발생했을 경우를 대비)
+ - 모든 VM과 CT의 유효하고 검증된 백업 (문제가 발생했을 경우를 대비)
  - 루트 마운트 지점의 최소 5GB의 디스크 여유 공간, 이상적으로는 10GB 이상
  - [알려진 업그레이드 이슈](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9#Known_Upgrade_Issues) 확인
 
@@ -60,7 +60,7 @@ Proxmox VE 9.x는 여러 개의 새롭고 주요한 기능들이 포함되어 �
 진행하기 전에 모든 VM 및 CT에 대한 유효한 백업이 생성되었는지 확인하는 것을 잊지 마세요.
 
 ### pve8to9 체크리스트 스크립트를 지속적으로 사용하세요
-최신 Proxmox VE 8.4 패키지에는 `pve8to9`라는 작언 체크리스트 프로그램이 포함되어 있어요. 이 프로그램은 업그레이드 과정 전, 도중 및 후에 발생할 수 있는 잠재적 문제에 대한 힌트와 경고를 제공해요. 다음 명령어를 실행하여 호출할 수 있어요:
+최신 Proxmox VE 8.4 패키지에는 `pve8to9`라는 작업 체크리스트 프로그램이 포함되어 있어요. 이 프로그램은 업그레이드 과정 전, 도중 및 후에 발생할 수 있는 잠재적 문제에 대한 힌트와 경고를 제공해요. 다음 명령어를 실행하여 호출할 수 있어요:
 
 ```bash
 pve8to9
@@ -107,7 +107,7 @@ sed -i 's/bookworm/trixie/g' /etc/apt/sources.list
 sed -i 's/bookworm/trixie/g' /etc/apt/sources.list.d/pve-enterprise.list
 ```
 
-데비안 Bookworm 전용 저장소가 남아 있지 않은지 확인하세요. 남아 있는 경우 해당 저장소 행의 시작 부분에 `#` 기호를 추가하여 주석 처리할 수 있어요. `/etc/apt/sources.list`와 `/etc/apt/sources.list.d/pve-enterprise.lit`의 모든 항목들을 확인하고, 올바른 Proxmox VE 9 / 데비안 Trixie 저장소는 [패키지 저장소](https://pve.proxmox.com/wiki/Package_Repositories)를 확인하세요.
+데비안 Bookworm 전용 저장소가 남아 있지 않은지 확인하세요. 남아 있는 경우 해당 저장소 행의 시작 부분에 `#` 기호를 추가하여 주석 처리할 수 있어요. `/etc/apt/sources.list`와 `/etc/apt/sources.list.d/pve-enterprise.list`의 모든 항목들을 확인하고, 올바른 Proxmox VE 9 / 데비안 Trixie 저장소는 [패키지 저장소](https://pve.proxmox.com/wiki/Package_Repositories)를 확인하세요.
 
 
 **Proxmox VE 9 패키지 저장소 추가하기**
